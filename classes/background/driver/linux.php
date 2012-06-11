@@ -9,7 +9,7 @@ class Background_Driver_Linux  extends Background_Driver{
      * @return string (ex: php oil r robots) 
      */
     protected function command_of_task(array $task){
-        $command = parent::commandOfTask($task);
+        $command = $this->commandOfTask($task);
         $command =  $command . " > /dev/null &";
         return $command;
     }
