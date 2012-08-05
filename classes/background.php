@@ -55,13 +55,15 @@ class Background {
 
         if(PHP_OS == 'WINNT' || PHP_OS == "WIN32" ){
             return "Windows";            
-        }else if(PHP_OS == 'Linux' || PHP_OS == "MacOS" ){
-            return "Linux";            
         }
+        
+        //Linux
+        //MacOS
         //AIX
         //Darwin
         //SunOS
-        return PHP_OS;
+        return "Linux";            
+        
         
         
     }
