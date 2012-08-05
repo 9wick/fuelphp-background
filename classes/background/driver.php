@@ -78,7 +78,7 @@ class Background_Driver {
         foreach ($task['args'] as $arg){
             $command .= " " . trim($arg);
         }
-        return $command;        
+        return $command;
     }
         
 }
